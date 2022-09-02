@@ -13,8 +13,6 @@ if (process.env.JAWSDB_URL) {
     process.env.DB_PW,
     {
       host: "localhost",
-      user: "root",
-      password: "MyPass1",
       dialect: "mysql",
       port: 3306,
     }
